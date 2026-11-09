@@ -50,6 +50,14 @@ input {
     outline: none;
 }
 
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 1px solid #d1d5db;
+    font: inherit
+}
+
 main {
     width: 320px;
     padding: 32px;
@@ -60,6 +68,6 @@ main {
     max-width: calc(100vw - 64px);
 }
 
-input:focus {
+input:focus, select:focus {
     border-color: #6366f1;
 }
